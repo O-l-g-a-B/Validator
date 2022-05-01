@@ -6,7 +6,7 @@ class Validator {
     }
 
     isDomain(test) {
-        return ((test.indexOf('.ru') !== -1) || (str.indexOf('.com') !== -1));
+        return ((test.indexOf('.ru') !== -1) || (test.indexOf('.com') !== -1));
     }
 
     isDate(test) {
